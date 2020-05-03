@@ -1,0 +1,277 @@
+/* -------------------- */
+/*      SUMMARY         */
+/* -------------------- */
+
+/*
+L.47    GENERALS
+L.68    HEADER
+L.115   SECTION
+L.261   FOOTER
+*/
+
+/* -------------------- */
+/*       COLORS         */
+/* -------------------- */
+
+/*
+bleu:       #81D4FA
+orange:     #FFD54F
+gris foncé: #424242 / rgb(66,66,66)
+blanc:      #FFFFFF
+noir:       #000000
+*/
+
+/* -------------------- */
+/*       POLICE         */
+/* -------------------- */
+
+/*
+
+*/
+
+/* -------------------- */
+/*      PROPORTIONS     */
+/* -------------------- */
+
+/*
+Largeur:    1190px -> 100%
+Couleur:    384px -> 32%
+Fond blanc: 806px -> 68%
+photo:      215px -> 18%
+padding:    46px -> 3%
+header_sep: 40px -> 3%
+*/
+
+
+/* --------------------------- */
+/*           GENERALS          */
+/* --------------------------- */
+
+/* ---- margin body ---- */
+body {
+    margin: 0px;
+    max-width: 2000px;
+}
+
+/* ---- div padding ---- */
+.padding {
+    padding: 0px 20px;
+}
+
+/* ---- couleur de fond ---- */
+.color_background {
+    background-color: #81D4FA;
+}
+
+
+
+/* --------------------------- */
+/*            HEADER           */
+/* --------------------------- */
+
+/* ---- h1 ---- */
+.name_color{
+    color: #FFD54F; 
+}
+
+header h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* ---- h2 ---- */
+header h2 {
+    margin-bottom: 2px;
+    margin-top: 0px;
+    font-size: 1.2em;
+}
+
+/* ---- separator ---- */
+.header_separator {
+    width: 50px;
+    border: 1px #FFD54F solid;
+}
+
+/* ---- photo ---- */
+header figure {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.cercle {
+    width: 215px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    border: 4px solid rgba(66,66,66,0.2) ;
+    border-style: inset;
+    display: block;
+    margin: auto;
+}
+
+
+
+/* --------------------------- */
+/*            SECTION          */
+/* --------------------------- */
+
+/* ---- taille titre h2 ---- */
+.contact h2, .a_propos h2, .formation h2, .experience h2, .recommandations h2, .footer h2 {
+    font-size: 1.2em;
+}
+
+/* ---- couleur titre h2 ---- */
+.contact h2, .a_propos h2, footer h2 {
+    color: #FFD54F;
+}
+
+/* ---- marges titre h2 ---- */
+.formation h2, .experience h2, .recommandations h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* ---- position h2 FORMATION/EXP/RECOMMAND ---- */
+.container_titre {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+/* ---- couleur h3/h4 ---- */
+h3, h4 {
+    color: #424242;
+}
+
+/* ---- taille h3 ---- */
+h3 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* ---- taille h4 ---- */
+h4 {
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* ---- forme texte ---- */
+p, ul li {
+    color: #424242;
+    font-size: 1em;
+}
+
+/* ---- marges texte ---- */
+.bloc2 p, .bloc4 p, .bloc6 p, .bloc8 p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+/* ---- style gras ---- */
+.bold {
+    font-weight: bold;
+}
+
+/* ---- texte souligné ---- */
+.underline {
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+/* ---- titre des catégories ---- */
+.container_categories {
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+/* ---- alignement texte ---- */
+.text_center {
+    text-align: center;
+}
+
+/* ---- petits icônes ---- */
+.fa-graduation-cap, .fa-briefcase, .fa-pencil-alt {
+    color: #FFD54F;
+    margin-right: 10px;
+    font-size: 1.8em;
+}
+
+/* ---- couleur separator ---- */
+.section_separator {
+    border: 1px #FFD54F solid;
+    margin-top: 5px;
+}
+
+/* ---- puces ---- */
+ul {
+    list-style-type: none;
+}
+
+.puce_doublecercle::before {
+    content: "\0025C9";
+    color: #FFD54F;
+    padding-right: 5px;
+}
+
+.puce_cercleplein::before {
+    content: "\0025CF";
+    color: #FFD54F;
+    padding-right: 5px;
+}
+
+.puce_doublecercle_indent {
+	text-indent: 25px;
+}
+
+.puce_cercleplein_indent {
+	text-indent: 18px;
+}
+
+
+/* ---- marges bloc ---- */
+.container_bloc2, .container_bloc4 {
+    margin-top: 40px;
+}
+
+/* ---- titre h5 ---- */
+.recommandations h5 {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.recommandations p {
+    margin-top: 0px;
+    margin-bottom: 23px;
+}
+
+
+
+/* --------------------------- */
+/*            FOOTER           */
+/* --------------------------- */
+
+/* ---- icônes ---- */
+footer i {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #424242;
+}
+
+.fa-camera, .fa-xbox, .fa-plane {
+    border: 2px #424242 solid;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.fa-camera, .fa-xbox {
+    margin-right: 40px;
+}
+
+

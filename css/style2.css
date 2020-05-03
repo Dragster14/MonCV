@@ -1,0 +1,143 @@
+/* --------------------------- */
+/*        MEDIA QUERIES        */
+/* --------------------------- */
+
+@Media all and (min-width: 1024px) {
+
+    /* ---- taille colonne bleu ---- */
+    .aside {
+        width: 30%;
+    }
+
+    /* ---- taille colonne blanche ---- */
+    .text {
+        width: 63%;
+    }
+
+    /* ---- taille texte ---- */
+    p, ul li {
+        font-size: 1.2em;
+    }
+
+    /* ---- taille h2 ---- */
+    .contact h2, .a_propos h2, .formation h2, .experience h2, .recommandations h2, .footer h2 {
+        font-size: 1.4em;
+    }
+
+    /* ---- taille h3 ---- */
+    h3 {
+        font-size: 1.4em;
+    }
+
+    /* ---- taille h4 ---- */
+    h4 {
+        font-size: 1.2em;
+    }
+
+    /* ---- taille h5 ---- */
+    .recommandations h5 {
+        font-size: 1.1em;
+    }
+
+    /* ---- espace entre partie bleu/blanche ---- */
+    .container_header, .container_bloc, .container_lastbloc {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .name:nth-child(1) {
+        order: 2;
+    }
+
+    .name {
+        float: right;
+        font-size: 1.4em;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header h1 {
+        margin-top: 0px;
+    }
+
+    /* ---- photo ---- */
+    header figure {
+        margin-top: 0px;
+        height: 300px;
+        display: flex;
+    }
+
+    /* ---- texte justifié ---- */
+    .text_justify {
+        text-align: justify;
+    }
+
+    /* ---- recommandations ---- */
+    .recommandations:nth-child(1) {
+        order: 2;
+    }
+
+    .container_recommandations {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* ---- footer ---- */
+    .icones {
+        display: flex;
+        height: 120px;
+    }
+
+    .icones i {
+        margin: auto;
+        font-size: 2.5em;
+    }
+
+    /* ---- bloc formation ---- */
+    .container_bloc1 {
+        display: flex;
+    }
+
+    /* ---- taille blocs ---- */
+    .bloc1, .bloc3, .bloc5, .bloc7 {
+        width: 45%;
+    }
+
+    .bloc2, .bloc4, .bloc6, .bloc8 {
+        width: 54%;
+    }
+
+    .container_bloc2 {
+        display: flex;
+    }
+
+    /* ---- bloc experience ---- */
+    .container_bloc3 {
+        display: flex;
+    }
+
+    .container_bloc4 {
+        display: flex;
+    }
+
+    /* ---- marges bas ---- */
+    .bloc4 p, .bloc8 p {
+        margin-bottom: 80px;
+    }
+
+    .bloc2 p, .bloc6 p {
+        margin-bottom: 0px;
+    }
+
+    /* ---- marge haut ---- */
+    .container_bloc2, .container_bloc4 {
+        margin-top: 40px;
+    }
+
+    .bloc3 ul, .bloc4 h3, .bloc7 ul, .bloc8 h3 {
+        margin-top: 0px;
+    }
+
+}
