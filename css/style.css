@@ -3,10 +3,10 @@
 /* -------------------- */
 
 /*
-L.47    GENERALS
-L.68    HEADER
-L.115   SECTION
-L.261   FOOTER
+L.35    GENERALS
+L.58    HEADER
+L.105   SECTION
+L.245   FOOTER
 */
 
 /* -------------------- */
@@ -26,29 +26,18 @@ noir:       #000000
 /* -------------------- */
 
 /*
-
+Trebuchet MS, Verdana, Arial
 */
 
-/* -------------------- */
-/*      PROPORTIONS     */
-/* -------------------- */
-
-/*
-Largeur:    1190px -> 100%
-Couleur:    384px -> 32%
-Fond blanc: 806px -> 68%
-photo:      215px -> 18%
-padding:    46px -> 3%
-header_sep: 40px -> 3%
-*/
 
 
 /* --------------------------- */
 /*           GENERALS          */
 /* --------------------------- */
 
-/* ---- margin body ---- */
+/* ---- police + margin body---- */
 body {
+    font-family: 'Trebuchet MS', Verdana, Arial;
     margin: 0px;
     max-width: 2000px;
 }
@@ -86,9 +75,9 @@ header h2 {
     font-size: 1.2em;
 }
 
-/* ---- separator ---- */
+/* ---- soulignement dans header ---- */
 .header_separator {
-    width: 50px;
+    width: 60px;
     border: 1px #FFD54F solid;
 }
 
