@@ -7,6 +7,7 @@ L.35    GENERALS
 L.58    HEADER
 L.105   SECTION
 L.245   FOOTER
+L.271   MEDIA QUERIES
 */
 
 /* -------------------- */
@@ -39,15 +40,19 @@ Trebuchet MS, Verdana, Arial
 body {
     font-family: 'Trebuchet MS', Verdana, Arial;
     margin: 0px;
+}
+
+/* ---- marges maximale site ---- */
+.marges_max {
     max-width: 2000px;
 }
 
-/* ---- div padding ---- */
+/* ---- padding des éléments ---- */
 .padding {
     padding: 0px 20px;
 }
 
-/* ---- couleur de fond ---- */
+/* ---- couleur de fond bleu ---- */
 .color_background {
     background-color: #81D4FA;
 }
@@ -58,17 +63,18 @@ body {
 /*            HEADER           */
 /* --------------------------- */
 
-/* ---- h1 ---- */
+/* ---- couleur titre h1 ---- */
 .name_color{
     color: #FFD54F; 
 }
 
+/* ---- marges titre h1 ---- */
 header h1 {
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
-/* ---- h2 ---- */
+/* ---- marges + taille titre h2 ---- */
 header h2 {
     margin-bottom: 2px;
     margin-top: 0px;
@@ -88,6 +94,7 @@ header figure {
     margin-bottom: 0px;
 }
 
+/* ---- bordure de la photo ---- */
 .cercle {
     width: 215px;
     height: auto;
@@ -121,7 +128,7 @@ header figure {
     margin-top: 0px;
 }
 
-/* ---- position h2 FORMATION/EXP/RECOMMAND ---- */
+/* ---- titre h2 centré ---- */
 .container_titre {
     display: flex;
     align-items: center;
@@ -133,21 +140,21 @@ h3, h4 {
     color: #424242;
 }
 
-/* ---- taille h3 ---- */
+/* ---- taille + marges titre h3 ---- */
 h3 {
     font-size: 1.2em;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-/* ---- taille h4 ---- */
+/* ---- taille + marges titre h4 ---- */
 h4 {
     font-size: 1em;
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
-/* ---- forme texte ---- */
+/* ---- couleur + taille texte ---- */
 p, ul li {
     color: #424242;
     font-size: 1em;
@@ -179,12 +186,12 @@ p, ul li {
     height: 50px;
 }
 
-/* ---- alignement texte ---- */
+/* ---- texte centré ---- */
 .text_center {
     text-align: center;
 }
 
-/* ---- petits icônes ---- */
+/* ---- icônes graphiques ---- */
 .fa-graduation-cap, .fa-briefcase, .fa-pencil-alt {
     color: #FFD54F;
     margin-right: 10px;
@@ -228,12 +235,13 @@ ul {
     margin-top: 40px;
 }
 
-/* ---- titre h5 ---- */
+/* ---- titre recommandations ---- */
 .recommandations h5 {
     font-size: 0.9em;
     margin-bottom: 10px;
 }
 
+/* ---- marges recommandations ---- */
 .recommandations p {
     margin-top: 0px;
     margin-bottom: 23px;
@@ -262,5 +270,180 @@ footer i {
 .fa-camera, .fa-xbox {
     margin-right: 40px;
 }
+
+
+
+/* --------------------------- */
+/*        MEDIA QUERIES        */
+/* --------------------------- */
+
+
+/* -------------------- */
+/*      SUMMARY         */
+/* -------------------- */
+
+/*
+L.21    GENERALS
+L.68    HEADER
+L.105   SECTION
+L.159   FOOTER
+*/
+
+
+@Media all and (min-width: 1024px) {
+
+    /* --------------------------- */
+    /*          GENERALS           */
+    /* --------------------------- */
+    
+        /* ---- taille colonne bleu ---- */
+        .aside {
+            width: 30%;
+        }
+    
+        /* ---- taille colonne blanche ---- */
+        .section {
+            width: 63%;
+        }
+    
+        /* ---- taille texte ---- */
+        p, ul li {
+            font-size: 1.2em;
+        }
+    
+        /* ---- taille h2 ---- */
+        .contact h2, .a_propos h2, .formation h2, .experience h2, .recommandations h2, .footer h2 {
+            font-size: 1.4em;
+        }
+    
+        /* ---- taille h3 ---- */
+        h3 {
+            font-size: 1.4em;
+        }
+    
+        /* ---- taille h4 ---- */
+        h4 {
+            font-size: 1.2em;
+        }
+    
+        /* ---- taille h5 ---- */
+        .recommandations h5 {
+            font-size: 1.1em;
+        }
+    
+        /* ---- espace entre partie bleu/blanche ---- */
+        .container_header, .container_bloc, .container_lastbloc {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+    
+    
+    /* --------------------------- */
+    /*           HEADER            */
+    /* --------------------------- */
+    
+        /* ---- soulignement dans header ---- */
+        .header_separator {
+            width: 80px;
+        }
+    
+        /* ---- changement place photo/nom ---- */
+        .name:nth-child(1) {
+            order: 2;
+        }
+    
+        /* ---- nom ---- */
+        .name {
+            font-size: 1.4em;
+            height: 340px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        /* ---- marge top h1 ---- */
+        header h1 {
+            margin-top: 0px;
+        }
+    
+        /* ---- photo ---- */
+        header figure {
+            margin-top: 0px;
+            height: 300px;
+            display: flex;
+        }
+    
+    
+    
+    /* --------------------------- */
+    /*           SECTION           */
+    /* --------------------------- */
+    
+        /* ---- texte justifié ---- */
+        .text_justify {
+            text-align: justify;
+        }
+    
+        /* ---- taille blocs ---- */
+        .bloc1, .bloc3, .bloc5, .bloc7 {
+            width: 45%;
+        }
+    
+        .bloc2, .bloc4, .bloc6, .bloc8 {
+            width: 54%;
+        }
+    
+        /* ---- bloc formation/experience ---- */
+        .container_bloc1, .container_bloc2, .container_bloc3, .container_bloc4 {
+            display: flex;
+        }
+    
+        /* ---- marges bloc bas ---- */
+        .bloc4 p, .bloc8 p {
+            margin-bottom: 80px;
+        }
+    
+        .bloc2 p, .bloc6 p {
+            margin-bottom: 0px;
+        }
+    
+        /* ---- marge bloc haut ---- */
+        .container_bloc2, .container_bloc4 {
+            margin-top: 40px;
+        }
+    
+        .bloc3 ul, .bloc4 h3, .bloc7 ul, .bloc8 h3 {
+            margin-top: 0px;
+        }
+    
+        /* ---- changement place recommandations/loisirs ---- */
+        .recommandations:nth-child(1) {
+            order: 2;
+        }
+    
+        /* ---- recommandations ---- */
+        .container_recommandations {
+            display: flex;
+            justify-content: space-around;
+        }
+    
+    
+    
+    /* --------------------------- */
+    /*           FOOTER            */
+    /* --------------------------- */
+    
+        /* ---- icônes loisir ---- */
+        .icones {
+            display: flex;
+            height: 120px;
+        }
+    
+        .icones i {
+            margin: auto;
+            font-size: 2.5em;
+        }
+    }
 
 
