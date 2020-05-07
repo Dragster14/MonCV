@@ -42,8 +42,8 @@ body {
     margin: 0px;
 }
 
-/* ---- marges maximale site ---- */
-.marges_max {
+/* ---- marges maximales site ---- */
+.marge_max {
     max-width: 2000px;
 }
 
