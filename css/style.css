@@ -114,7 +114,7 @@ header figure {
 
 /* ---- taille titre h2 ---- */
 .contact h2, .a_propos h2, .formation h2, .experience h2, .recommandations h2, .footer h2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 /* ---- couleur titre h2 ---- */
@@ -154,10 +154,20 @@ h4 {
     margin-bottom: 10px;
 }
 
-/* ---- couleur + taille texte ---- */
+/* ---- couleur texte ---- */
 p, ul li {
     color: #424242;
     font-size: 1em;
+}
+
+/* ---- taille texte ---- */
+p {
+  font-size: 1em;
+}
+
+/* ---- taille texte puces ---- */
+ul li {
+  font-size: 1.2em;
 }
 
 /* ---- marges texte ---- */
@@ -215,6 +225,7 @@ ul {
     margin-right: 5px;
     display: inline-block;
     margin-left: -1.1em;
+    font-size: 1.2em;
 
 }
 
@@ -224,6 +235,7 @@ ul {
     margin-right: 8px;
     display: inline-block;
     margin-left: -1.1em;
+    font-size: 1.2em;
 }
 
 .puce_none{
