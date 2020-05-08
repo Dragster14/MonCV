@@ -466,4 +466,9 @@ L.434   FOOTER
   .experience .section_separator {
     margin-top: 15px;
   }
+
+  /* ---- taille puces ---- */
+  .puce_doublecercle::before {
+    font-size: 1.6em;
+  }
 }
