@@ -225,7 +225,7 @@ ul {
     color: #FFD54F;
     display: inline-block;
     margin-left: -1.1em;
-    font-size: 1.4em;
+    font-size: 1.2em;
 
 }
 
@@ -465,5 +465,10 @@ L.434   FOOTER
   /* ---- marges separator experience pro --- */
   .experience .section_separator {
     margin-top: 15px;
+  }
+
+  /* ---- taille puces ---- */
+  .puce_doublecercle::before {
+    font-size: 1.6em;
   }
 }
