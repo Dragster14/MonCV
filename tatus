@@ -1,0 +1,95 @@
+[33mcommit a88c3582378ee5a5e167ef4fbb8af5811fbc5673[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Robin Joannes <robinjoannes@gmail.com>
+Date:   Fri May 8 13:19:22 2020 +0200
+
+    Ajustement taille puces/texte/titres
+
+[33mcommit fc605e5fe2717ff2fcc23fa02d82166c0d79c39b[m
+Author: Robin Joannes <robinjoannes@gmail.com>
+Date:   Fri May 8 12:57:30 2020 +0200
+
+    Ajustement marges puces
+
+[33mcommit edb93ce4dc5e07c794ed1864146c4aab27102f1e[m
+Author: Robin Joannes <robinjoannes@gmail.com>
+Date:   Fri May 8 12:44:29 2020 +0200
+
+    Modification texte puces
+
+[33mcommit 706b163c5ba688848f1d9818188fec8f40b931d5[m
+Author: Dragster14 <robinjoannes@gmail.com>
+Date:   Fri May 8 12:22:01 2020 +0200
+
+    Modification texte puces
+
+[33mcommit 7a9395299cc632ab16eea573b5b2501ceba25f57[m
+Author: Dragster14 <robinjoannes@gmail.com>
+Date:   Fri May 8 12:17:46 2020 +0200
+
+    Ajustement puces (ul, li)
+
+[33mcommit 3bdfe1da17bad02a74a7f8bac54fe13bf313d0dc[m
+Author: Dragster14 <robinjoannes@gmail.com>
+Date:   Fri May 8 11:18:51 2020 +0200
+
+    Ajustement commentaires style.css
+
+[33mcommit 1d3badd8fe2d6a25bffe1b1f32b6e520889e154c[m
+Author: Robin Joannes <robinjoannes@gmail.com>
+Date:   Fri May 8 09:30:42 2020 +0200
+
+    Ajustement balise head
+
+[33mcommit 3775f5ecf799da355fd1bb65faa5adf703ffd047[m
+Author: Robin Joannes <robinjoannes@gmail.com>
+Date:   Fri May 8 09:25:49 2020 +0200
+
+    Ajustement meta "Viewport"
+
+[33mcommit 7c1439d79db0be077b43da2c289067724e0a2983[m
+Author: Robin Joannes <robinjoannes@gmail.com>
+Date:   Thu May 7 10:18:38 2020 +0200
+
+    Ajout meta "Viewport" + changement texte A PROPOS + texte FORMATION (Junior Web Developer)
+
+[33mcommit 654e59bcab09ff8c883c7a47072f81549e06ea57[m
+Author: Robin Joannes <robinjoannes@gmail.com>
+Date:   Thu May 7 09:33:33 2020 +0200
+
+    Suppression fichier style2.css
+
+[33mcommit d78812635f5a32a5840768c593473a5aac8d9e25[m
+Author: Robin Joannes <robinjoannes@gmail.com>
+Date:   Thu May 7 08:51:55 2020 +0200
+
+    "Suppression fichier Maquette cv.png"
+
+[33mcommit 48f550ac4167f88837677cfaea53d66088e04598[m
+Author: Robin Joannes <robinjoannes@gmail.com>
+Date:   Wed May 6 17:21:29 2020 +0200
+
+    Ajout fichier MaquetteCV et suppression fichier .DS_Store
+
+[33mcommit 47c349d8aa1d38c9391413e78c59f66678b85a66[m
+Author: Robin Joannes <robinjoannes@gmail.com>
+Date:   Wed May 6 17:19:41 2020 +0200
+
+    Ajout du fichier MaquetteCV
+
+[33mcommit 8508684df89a35869c0829049984e7af69c8e4e6[m
+Author: Dragster14 <robinjoannes@gmail.com>
+Date:   Mon May 4 18:36:20 2020 +0200
+
+    Factorisation fichiers CSS
+
+[33mcommit dfe91b61c5687132145f88e287a2b95073a71085[m
+Author: Robin Joannes <robinjoannes@gmail.com>
+Date:   Sun May 3 16:17:13 2020 +0200
+
+    Deuxieme Sauvegarde
+
+[33mcommit 18bf2862fbbbc64a952d03342151c026fe6ee0f0[m
+Author: Robin Joannes <robinjoannes@gmail.com>
+Date:   Sun May 3 16:04:12 2020 +0200
+
+    Dossier MonCV - Premiere Sauvegarde
