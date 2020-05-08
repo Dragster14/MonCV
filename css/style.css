@@ -212,23 +212,23 @@ ul {
 .puce_doublecercle::before {
     content: "\0025C9";
     color: #FFD54F;
-    padding-right: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-left: -1.3em;
+
 }
 
 .puce_cercleplein::before {
     content: "\0025CF";
     color: #FFD54F;
-    padding-right: 5px;
+    margin-right: 8px;
+    display: inline-block;
+    margin-left: -1.1em;
 }
 
-.puce_doublecercle_indent {
-	text-indent: 25px;
+.puce_none{
+	content: none;
 }
-
-.puce_cercleplein_indent {
-	text-indent: 18px;
-}
-
 
 /* ---- marges bloc ---- */
 .container_bloc2, .container_bloc4 {
