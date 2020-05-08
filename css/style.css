@@ -158,7 +158,6 @@ h4 {
 /* ---- couleur texte ---- */
 p, ul li {
     color: #424242;
-    font-size: 1em;
 }
 
 /* ---- taille texte ---- */
@@ -315,7 +314,7 @@ L.434   FOOTER
     }
 
     /* ---- taille texte ---- */
-    p, ul li {
+    p {
         font-size: 1.2em;
     }
 
@@ -407,7 +406,7 @@ L.434   FOOTER
         display: flex;
     }
 
-    /* ---- marges bloc bas ---- */
+    /* ---- marges du bas bloc ---- */
     .bloc4 p, .bloc8 p {
         margin-bottom: 80px;
     }
@@ -416,7 +415,7 @@ L.434   FOOTER
         margin-bottom: 0px;
     }
 
-    /* ---- marge bloc haut ---- */
+    /* ---- marge du haut bloc ---- */
     .container_bloc2, .container_bloc4 {
         margin-top: 40px;
     }
@@ -462,7 +461,7 @@ L.434   FOOTER
 
 @Media all and (max-width: 405px) {
 
-  /* ---- marges separator experience pro --- */
+  /* ---- taille titre experience pro --- */
   .experience h2 {
     font-size: 1.2em;
   }
