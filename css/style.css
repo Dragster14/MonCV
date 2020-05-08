@@ -223,7 +223,6 @@ ul {
 .puce_doublecercle::before {
     content: "\0025C9";
     color: #FFD54F;
-    margin-right: 5px;
     display: inline-block;
     margin-left: -1.1em;
     font-size: 1.2em;
@@ -233,14 +232,10 @@ ul {
 .puce_cercleplein::before {
     content: "\0025CF";
     color: #FFD54F;
-    margin-right: 8px;
+    margin-right: 5px;
     display: inline-block;
     margin-left: -1.1em;
     font-size: 1.2em;
-}
-
-.puce_none{
-	content: none;
 }
 
 /* ---- marges bloc ---- */
