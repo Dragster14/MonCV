@@ -464,9 +464,4 @@ L.434   FOOTER
   .experience h2 {
     font-size: 1.2em;
   }
-
-  /* ---- marge puces ---- */
-  .puce_doublecercle::before {
-      margin-left: 0px;
-  }
 }
