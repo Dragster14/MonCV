@@ -219,14 +219,14 @@ ul {
     list-style-type: none;
 }
 
-.puce_doublecercle::before {
+/*.puce_doublecercle::before {
     content: "\0025C9";
     color: #FFD54F;
     display: inline-block;
     margin-left: -1.25em;
     font-size: 1.2em;
 
-}
+}*/
 
 .puce_cercleplein::before {
     content: "\0025CF";
