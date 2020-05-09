@@ -467,6 +467,6 @@ L.434   FOOTER
 
   /* ---- marge puces ---- */
   .puce_doublecercle::before {
-      margin-right: 5px;
+      margin-left: -20px;
   }
 }
