@@ -219,16 +219,16 @@ ul {
     list-style-type: none;
 }
 
-/*.puce_doublecercle::before {
+.puce_doublecercle::before {
     content: "\0025C9";
     color: #FFD54F;
     display: inline-block;
     margin-left: -30px;
     font-size: 1.2em;
-}*/
+}
 
 .puce_cercleplein::before {
-    content: "\0025C9";
+    content: "\0025CF";
     color: #FFD54F;
     margin-right: 5px;
     display: inline-block;
@@ -463,5 +463,10 @@ L.434   FOOTER
   /* ---- taille titre experience pro --- */
   .experience h2 {
     font-size: 1.2em;
+  }
+
+  /* ---- marge puces ---- */
+  .puce_doublecercle::before {
+      margin-right: 5px;
   }
 }
