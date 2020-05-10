@@ -129,13 +129,6 @@ header figure {
     margin-top: 0px;
 }
 
-/* ---- titre h2 centré ---- */
-.container_titre {
-    display: flex;
-    align-items: center;
-    height: 30px;
-}
-
 /* ---- couleur h3/h4 ---- */
 h3, h4 {
     color: #424242;
@@ -204,8 +197,8 @@ ul li {
 /* ---- icônes graphiques ---- */
 .fa-graduation-cap, .fa-briefcase, .fa-pencil-alt {
     color: #FFD54F;
-    margin-right: 10px;
-    font-size: 1.8em;
+    margin-right: 20px;
+    font-size: 1.4em;
 }
 
 /* ---- couleur separator ---- */
