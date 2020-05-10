@@ -217,7 +217,7 @@ ul li {
 /* ---- puces ---- */
 ul {
     list-style-type: none;
-    padding-inline-start: 0px;
+    padding-inline-start: 20px;
 }
 
 .puce_doublecercle::before {
@@ -225,10 +225,7 @@ ul {
     content : "\0025C9";
     color: #FFD54F;
     margin-right: 5px;
-}
-
-.puce_doublecercle_indent {
-  text-indent: 21px;
+    margin-left: -21px;
 }
 
 .puce_cercleplein::before {
@@ -236,10 +233,7 @@ ul {
     content: "\0025CF";
     color: #FFD54F;
     margin-right: 5px;
-}
-
-.puce_cercleplein_indent {
-  text-indent: 17px;
+    margin-left: -17px;
 }
 
 /* ---- marges bloc ---- */
