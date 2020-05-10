@@ -1,19 +1,19 @@
-/* -------------------- */
-/*      SUMMARY         */
-/* -------------------- */
+/* --------------------------- */
+/*            SUMMARY          */
+/* --------------------------- */
 
 /*
-L.35    GENERALS
-L.58    HEADER
-L.105   SECTION
-L.245   FOOTER
-L.271   MEDIA QUERIES (min 1024px)
-L.464   MEDIA QUERIES (max 405px)
+L.37    GENERALS
+L.64    HEADER
+L.113   SECTION
+L.261   FOOTER
+L.304   MEDIA QUERIES (min 1024px)
+L.460   MEDIA QUERIES (max 405px)
 */
 
-/* -------------------- */
-/*       COLORS         */
-/* -------------------- */
+/* --------------------------- */
+/*            COLORS           */
+/* --------------------------- */
 
 /*
 bleu:       #81D4FA
@@ -23,9 +23,9 @@ blanc:      #FFFFFF
 noir:       #000000
 */
 
-/* -------------------- */
-/*       POLICE         */
-/* -------------------- */
+/* --------------------------- */
+/*            POLICE           */
+/* --------------------------- */
 
 /*
 Trebuchet MS, Verdana, Arial
@@ -217,17 +217,27 @@ ul li {
 /* ---- puces ---- */
 ul {
     list-style-type: none;
-    padding-inline-start: 20px;
 }
 
+/* ---- alignement début puces ---- */
+.bloc1 ul, .bloc5 ul {
+  padding-inline-start: 20px;
+}
+
+.bloc3 ul, .bloc7 ul {
+  padding-inline-start: 16px;
+}
+
+/* ---- style puce double cercle ---- */
 .puce_doublecercle::before {
     display: inline-block;
     content : "\0025C9";
     color: #FFD54F;
-    margin-right: 5px;
+    margin-right: 3px;
     margin-left: -21px;
 }
 
+/* ---- style puce cercle plein ---- */
 .puce_cercleplein::before {
     display: inline-block;
     content: "\0025CF";
@@ -289,10 +299,10 @@ footer i {
 /* -------------------- */
 
 /*
-L.296    GENERALS
-L.343    HEADER
-L.380   SECTION
-L.434   FOOTER
+L.304    GENERALS
+L.351    HEADER
+L.388   SECTION
+L.442   FOOTER
 */
 
 
@@ -460,8 +470,8 @@ L.434   FOOTER
 
 @Media all and (max-width: 405px) {
 
-  /* ---- taille titre experience pro --- */
-  .experience h2 {
-    font-size: 1.2em;
-  }
+    /* ---- taille titre experience pro --- */
+    .experience h2 {
+      font-size: 1.2em;
+    }
 }
