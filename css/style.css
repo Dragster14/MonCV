@@ -450,10 +450,10 @@ L.442   FOOTER
 /*     MEDIA QUERIES 405px     */
 /* --------------------------- */
 
-@Media all and (max-width: 405px) {
+@Media all and (max-width: 417px) {
 
-    /* ---- taille titre experience pro --- */
-    .experience h2 {
-      font-size: 1.2em;
+    /* ---- position icône graphique travail ---- */
+    .fa-briefcase {
+      float: left;
     }
 }
