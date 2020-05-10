@@ -228,14 +228,20 @@ ul {
   padding-inline-start: 16px;
 }
 
-/* ---- style puce double cercle ---- */
+.fa-bullseye {
+  color: #FFD54F;
+  margin-left: -19px;
+  font-size: 0.8em;
+}
+
+/* ---- style puce double cercle ----
 .puce_doublecercle::before {
     display: inline-block;
     content : "\0025C9";
     color: #FFD54F;
     margin-right: 3px;
     margin-left: -21px;
-}
+}*/
 
 /* ---- style puce cercle plein ---- */
 .puce_cercleplein::before {
