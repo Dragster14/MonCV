@@ -217,40 +217,29 @@ ul li {
 /* ---- puces ---- */
 ul {
     list-style-type: none;
+    padding-inline-start: 0px;
 }
 
-.puce_doublecercle:before {
+.puce_doublecercle::before {
     display: inline-block;
     content : "\0025C9";
     color: #FFD54F;
-    margin-left: -21px;
     margin-right: 5px;
 }
 
-.puce_doublecercle_none:before {
-    display: inline-block;
-    content : "\0025C9";
-    color: #FFD54F;
-    margin-left: -21px;
-    margin-right: 5px;
-    opacity: 0;
+.puce_doublecercle_indent {
+  text-indent: 21px;
 }
 
-.puce_cercleplein:before {
+.puce_cercleplein::before {
     display: inline-block;
     content: "\0025CF";
     color: #FFD54F;
-    margin-left: -18px;
     margin-right: 5px;
 }
 
-.puce_cercleplein_none:before {
-    display: inline-block;
-    content: "\0025CF";
-    color: #FFD54F;
-    margin-left: -18px;
-    margin-right: 5px;
-    opacity: 0;
+.puce_cercleplein_indent {
+  text-indent: 17px;
 }
 
 /* ---- marges bloc ---- */
