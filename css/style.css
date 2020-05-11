@@ -212,6 +212,11 @@ ul {
     list-style-type: none;
 }
 
+/* ---- marge haut puces ---- */
+.bloc1 ul, .bloc5 ul {
+    margin-top: 20px;
+}
+
 /* ---- icône puce double cercle ---- */
 .fa-bullseye {
   color: #FFD54F;
