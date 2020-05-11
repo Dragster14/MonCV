@@ -4,11 +4,11 @@
 
 /*
 L.37    GENERALS
-L.64    HEADER
-L.113   SECTION
-L.256   FOOTER
-L.280   MEDIA QUERIES (min 1024px)
-L.455   MEDIA QUERIES (max 417px)
+L.65    HEADER
+L.114   SECTION
+L.257   FOOTER
+L.281   MEDIA QUERIES (min 1024px)
+L.456   MEDIA QUERIES (max 417px)
 */
 
 /* --------------------------- */
@@ -46,6 +46,7 @@ body {
 /* ---- marges maximales site ---- */
 .marge_max {
     max-width: 2000px;
+    margin: auto;
 }
 
 /* ---- padding des éléments ---- */
