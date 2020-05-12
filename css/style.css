@@ -4,11 +4,11 @@
 
 /*
 L.37    GENERALS
-L.65    HEADER
-L.114   SECTION
-L.257   FOOTER
-L.281   MEDIA QUERIES (min 1024px)
-L.456   MEDIA QUERIES (max 417px)
+L.70    HEADER
+L.119   SECTION
+L.275   FOOTER
+L.299   MEDIA QUERIES (min 1024px)
+L.469   MEDIA QUERIES (min 481px - max 1023px)
 */
 
 /* --------------------------- */
@@ -57,6 +57,11 @@ body {
 /* ---- couleur de fond bleu ---- */
 .color_background {
     background-color: #81D4FA;
+}
+
+/* ---- coupure des mots longs ---- */
+header, .contact, .formation, .experience, .recommandations {
+    overflow-wrap: anywhere;
 }
 
 
@@ -124,10 +129,11 @@ header figure {
     color: #FFD54F;
 }
 
-/* ---- marges titre h2 ---- */
+/* ---- marges titre + alignement avec icônes ---- */
 .formation h2, .experience h2, .recommandations h2 {
     margin-bottom: 0px;
     margin-top: 0px;
+    display: flex;
 }
 
 /* ---- couleur h3/h4 ---- */
@@ -147,6 +153,18 @@ h4 {
     font-size: 1em;
     margin-top: 0px;
     margin-bottom: 10px;
+}
+
+/* ---- liens ---- */
+a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* --- liens survol ---- */
+a:hover {
+    text-decoration: underline;
+    color: #FFD54F;
 }
 
 /* ---- couleur texte ---- */
@@ -260,8 +278,6 @@ ul {
 /* ---- icônes ---- */
 footer i {
     font-size: 2em;
-    margin-top: 20px;
-    margin-bottom: 20px;
     color: #424242;
 }
 
@@ -269,11 +285,13 @@ footer i {
     border: 2px #424242 solid;
     border-radius: 50%;
     padding: 6px;
+    margin-top: 10px;
 }
 
-.fa-camera, .fa-xbox {
-    margin-right: 40px;
+.fa-plane {
+    margin-bottom: 10px;
 }
+
 
 
 
@@ -287,10 +305,10 @@ footer i {
 /* -------------------- */
 
 /*
-L.294    GENERALS
-L.341    HEADER
-L.378   SECTION
-L.432   FOOTER
+L.318   GENERALS
+L.371   HEADER
+L.408   SECTION
+L.456   FOOTER
 */
 
 
@@ -341,8 +359,14 @@ L.432   FOOTER
         justify-content: space-between;
     }
 
-
-
+    /* ---- position recommandations + icônes loisirs ---- */
+    .container_recommandations, .icones {
+        display: flex;
+        justify-content: space-around;
+    }    
+    
+    
+    
 /* --------------------------- */
 /*           HEADER            */
 /* --------------------------- */
@@ -426,40 +450,37 @@ L.432   FOOTER
         order: 2;
     }
 
-    /* ---- recommandations ---- */
-    .container_recommandations {
-        display: flex;
-        justify-content: space-around;
-    }
-
 
 
 /* --------------------------- */
 /*           FOOTER            */
 /* --------------------------- */
 
-    /* ---- icônes loisir ---- */
-    .icones {
-        display: flex;
-        height: 120px;
-    }
-
+    /* ---- icônes loisirs ---- */
     .icones i {
-        margin: auto;
         font-size: 2.5em;
+        margin-top: 30px;
     }
 }
 
 
 
 /* --------------------------- */
-/*     MEDIA QUERIES 417px     */
+/*  MEDIA QUERIES 481px-1023px */
 /* --------------------------- */
 
-@Media all and (max-width: 417px) {
+@Media all and (min-width: 481px) and (max-width: 1023px) {
 
-    /* ---- alignement titre experience pro ---- */
-    .experience h2 {
+    /* ---- mise en page contact, recommandations, icônes loisirs ---- */
+    .contact_blocs, .container_recommandations, .icones {
         display: flex;
+        justify-content: space-around;
+    }
+
+    /* ---- alignement blocs contact ---- */
+    .contact_blocs_gauche, .contact_blocs_centre, .contact_blocs_droite {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }
