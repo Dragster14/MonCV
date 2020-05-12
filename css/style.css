@@ -453,13 +453,13 @@ L.432   FOOTER
 
 
 /* --------------------------- */
-/*     MEDIA QUERIES 405px     */
+/*     MEDIA QUERIES 417px     */
 /* --------------------------- */
 
 @Media all and (max-width: 417px) {
 
-    /* ---- position icône graphique travail ---- */
-    .fa-briefcase {
-      float: left;
+    /* ---- alignement titre experience pro ---- */
+    .experience h2 {
+        display: flex;
     }
 }
