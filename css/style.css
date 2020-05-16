@@ -60,7 +60,7 @@ body {
 }
 
 /* ---- coupure des mots longs ---- */
-header, .contact, .formation, .experience, .recommandations {
+header, .contact, .a_propos, .formation, .experience, .recommandations {
     overflow-wrap: anywhere;
 }
 
@@ -286,12 +286,19 @@ footer i {
     border-radius: 50%;
     padding: 6px;
     margin-top: 10px;
-}
-
-.fa-plane {
     margin-bottom: 10px;
 }
 
+.icones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fa-xbox {
+    margin-right: 15px;
+    margin-left: 15px;
+}
 
 
 
