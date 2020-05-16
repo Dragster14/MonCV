@@ -7,8 +7,8 @@ L.37    GENERALS
 L.70    HEADER
 L.119   SECTION
 L.275   FOOTER
-L.306   MEDIA QUERIES (min 1024px)
-L.476   MEDIA QUERIES (min 481px - max 1023px)
+L.303   MEDIA QUERIES (min 1024px)
+L.473   MEDIA QUERIES (min 481px - max 1023px)
 */
 
 /* --------------------------- */
@@ -287,17 +287,14 @@ footer i {
     padding: 6px;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .icones {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.fa-xbox {
-    margin-right: 15px;
-    margin-left: 15px;
 }
 
 
@@ -312,10 +309,10 @@ footer i {
 /* -------------------- */
 
 /*
-L.325   GENERALS
-L.378   HEADER
-L.415   SECTION
-L.463   FOOTER
+L.322   GENERALS
+L.375   HEADER
+L.412   SECTION
+L.460   FOOTER
 */
 
 
